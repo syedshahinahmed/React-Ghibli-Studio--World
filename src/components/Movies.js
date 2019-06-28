@@ -3,13 +3,13 @@ import Logo from "../logo.png";
 
 const Movies = ({ flims }) => {
   return (
-    <div className="movie__root">
+    <div className="movies__root">
       <center>
         <img src={Logo} alt="Logo" />
       </center>
-      <div className="movie__container">
+      <div className="movies__container">
         {flims.map(movie => (
-          <div className="movie__card" key={movie.id}>
+          <div className="movies__card" key={movie.id}>
             <h1> {movie.title}</h1>
             <p>
               Description:{" "}

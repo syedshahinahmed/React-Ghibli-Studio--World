@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Movies from "./components/Movies";
 
 class App extends Component {
   // Setting The Initial State
@@ -23,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello</h1>
+        <Movies flims={this.state.flims} />
       </div>
     );
   }

@@ -29,7 +29,6 @@ class App extends Component {
       <div>
         <Navigation />
         <Movies flims={this.state.flims} />
-        {/* <Contact /> */}
       </div>
     );
   }

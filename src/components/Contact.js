@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
 import Logo from "../logo.png";
+import Footer from "./Footer";
 
 const Contact = () => (
   <React.Fragment>
@@ -63,6 +64,7 @@ const Contact = () => (
         </form>
       </div>
     </div>
+    <Footer />
   </React.Fragment>
 );
 

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Movies from "./components/Movies";
 import Navigation from "./components/Navigation";
+import Contact from "./components/Contact";
 
 class App extends Component {
   // Setting The Initial State
@@ -25,8 +26,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navigation />
-        <Movies flims={this.state.flims} />
+        {/* <Navigation />
+        <Movies flims={this.state.flims} /> */}
+        <Contact />
       </div>
     );
   }

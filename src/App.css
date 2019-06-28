@@ -263,6 +263,75 @@ input[type="submit"] {
 }
 
 /* Footer Component Style*/
+/* Footer Style */
+
+footer {
+  width: auto;
+  background-color: lightblue;
+  color: #000;
+}
+
+/* Text Div Style */
+footer h5 {
+  text-align: center;
+}
+
+/*  Social Icon Style */
+.social-item {
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.social-item a {
+  font-size: 2rem;
+  padding: 10px;
+  color: #000;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+.footer-copyright a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Audiowide", cursive;
+  text-transform: uppercase;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-google-plus,
+.fa-linkedin,
+.fa-instagram {
+  font-size: 2rem;
+  color: floralwhite;
+}
+
+.fa-facebook:hover {
+  color: #3c579a;
+  transition: 0.5s ease;
+}
+
+.fa-twitter:hover {
+  color: #1da1f3;
+  transition: 0.5s ease;
+}
+
+.fa-google-plus:hover {
+  color: #d94837;
+  transition: 0.5s ease;
+}
+
+.fa-linkedin:hover {
+  color: #0179b5;
+  transition: 0.5s ease;
+}
+.fa-instagram:hover {
+  color: #cc37a5;
+  transition: 0.5s ease;
+}
 
 /* Media Quries Styling Movies Component */
 @media screen and (min-width: 600px) {

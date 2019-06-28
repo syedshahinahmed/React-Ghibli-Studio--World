@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class Footer extends Component {
+  // const dateUpdate = document.write(new Date().getFullYear());
+
   render() {
     return (
       <footer>

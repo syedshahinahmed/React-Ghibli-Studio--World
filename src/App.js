@@ -26,9 +26,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <Navigation />
-        <Movies flims={this.state.flims} /> */}
-        <Contact />
+        <Navigation />
+        <Movies flims={this.state.flims} />
+        {/* <Contact /> */}
       </div>
     );
   }

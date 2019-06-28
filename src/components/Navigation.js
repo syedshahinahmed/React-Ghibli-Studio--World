@@ -18,8 +18,8 @@ const Navigation = () => {
         </div>
 
         <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#Contact">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </header>
@@ -27,8 +27,3 @@ const Navigation = () => {
 };
 
 export default Navigation;
-
-{
-  /* <Link to="/">Home</Link>
-          <Link to="/contact">Contact</Link> */
-}

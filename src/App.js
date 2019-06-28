@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Movies from "./components/Movies";
 import Navigation from "./components/Navigation";
 import Contact from "./components/Contact";
+import "./App.css";
 
 class App extends Component {
   // Setting The Initial State

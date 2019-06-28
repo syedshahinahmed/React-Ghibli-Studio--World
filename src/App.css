@@ -1,0 +1,120 @@
+/* Reset Style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML & Body Style */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Audiowide", cursive; */
+  scroll-behavior: smooth;
+  background: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+  height: 100%;
+  widows: 100%;
+  line-height: 1.6;
+  color: #363535;
+}
+
+/* Navabr Style */
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: #4d4d4d;
+  background-color: lightblue;
+  /* background-color: #d4d7de; */
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+/* Logo Style */
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #000;
+  padding: 10px 10px 10px 10px;
+  text-transform: uppercase;
+  font-family: "Audiowide", cursive;
+  margin-left: 40px;
+}
+
+/* Navbar Button Style */
+.nav > .nav-btn {
+  display: none;
+}
+
+/* Navbar Links Style */
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+/* Navabr Links Style */
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+  color: #000;
+}
+
+/* Navbar Links Hover Style  */
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar Links Hover Style  */
+.nav > #nav-check {
+  display: none;
+}
+
+/* Movie Component Styled */
+.movie__root {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+/* Container Styling */
+.movie__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Card Styling */
+.movie__card {
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+
+.movie__card:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.15);
+  transform: translate3D(0, 10px, 0);
+}
+
+/* H1 Styling */
+.movie__card h1 {
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  background: linear-gradient(#619e24 50%, #2a460f 100%, #f6f1d3);
+  margin: 0 0 2rem 0;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}

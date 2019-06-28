@@ -118,3 +118,36 @@ body {
   font-weight: 700;
   font-family: "Roboto", sans-serif;
 }
+
+/* Para Styling */
+p {
+  padding: 0 1rem 1rem;
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: "Poiret One", cursive;
+}
+
+/* Card Child Elements Style */
+.movie__card:nth-child(2n) h1 {
+  background-image: linear-gradient(120deg, #56aa75 0%, #48819e 100%);
+}
+
+.movie__card:nth-child(3n) h1 {
+  background-image: linear-gradient(120deg, #ce552d 0%, #79afca 100%);
+}
+
+.movie__card:nth-child(4n) h1 {
+  background-image: linear-gradient(120deg, #b67b59 0%, #662f39 100%);
+}
+
+@media screen and (min-width: 600px) {
+  .movie__card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .movie__card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
